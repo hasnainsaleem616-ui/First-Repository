@@ -1,2 +1,3 @@
 # First-Repository
-1st repo
+My first repository on github.
+Auther --HASNAIN SALEEM
