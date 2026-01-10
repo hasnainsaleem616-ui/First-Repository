@@ -1,6 +1,13 @@
 # **Library Management System**
 
-A **console-based Library Management System** implemented in Python that handles **students, books, issued books, fines, and user authentication**. This system allows **Admin** and **Student** users to perform specific actions with professional formatting and functionalities.<br><br>
+**Description:**<br>
+The **Library Management System (LMS)** is a **console-based Python application** designed to simulate the operations of a real-life library. It provides functionality for both **Admin** and **Student** users, allowing efficient management of books, students, issued books, fines, and user authentication.<br><br>
+
+Admins can **add, view, and remove students and books**, manage student fines and rents, and control student accounts, including changing passwords. They can also monitor **blocked students** whose fines exceed a certain threshold.<br><br>
+
+Students can **view available books, request books, return books**, and track their **allotted books, overdue status, and fines**. The system automatically updates **student status** to "Blocked" if fines exceed Rs. 1000 and back to "Regular" once fines are reduced.<br><br>
+
+The system is designed with **professional console menus**, detailed formatting, and persistent storage using **CSV files**. It ensures an **intuitive, real-life library management experience** while being simple and easy to use.<br><br>
 
 ---
 
@@ -14,6 +21,7 @@ A **console-based Library Management System** implemented in Python that handles
   - [Admin Modules](#admin-modules)  
   - [Student Modules](#student-modules)  
 - [CSV Data Structure](#csv-data-structure)  
+- [Example Menus](#example-menus)  
 - [Notes](#notes)  
 
 ---
@@ -29,8 +37,8 @@ A **console-based Library Management System** implemented in Python that handles
 - Block students automatically if fine > 1000  
 
 **Student Features**<br>
-- Login and view personal details (except password)  
-- View available books  
+- View personal details and current status  
+- View **available books**  
 - Request and return books  
 - View allotted books with overdue highlights  
 - View fines and status (Blocked/Regular)  
@@ -72,4 +80,3 @@ A **console-based Library Management System** implemented in Python that handles
 
 ```bash
 python library_system.py
-
